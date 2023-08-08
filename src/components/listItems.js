@@ -10,6 +10,8 @@ import PersonIcon from '@material-ui/icons/Person';
 import LayersIcon from '@material-ui/icons/Layers';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import AssignmentIcon from '@material-ui/icons/Assignment';
+import { Typography } from '@material-ui/core';
+import {Link} from "react-router-dom";
 
 
 export const mainListItems = (
@@ -50,6 +52,7 @@ export const mainListItems = (
       </ListItemIcon>
       <ListItemText primary="Log Out" />
     </ListItem>
+    <Typography variant="h5" align="center"><Link to="/Producer">Pro</Link></Typography>
   </div>
 );
 

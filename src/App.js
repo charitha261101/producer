@@ -6,7 +6,7 @@ import Signup from './components/Signup';
 import Dashboard from './components/Dashboard';
 import Director from './components/Director';
 import ResponseContext from './components/ResponseContext';
-
+import Producer from "./components/Producer";
 
 function App() {
   const [sceneshootData, setsceneshootData]=useState({});
@@ -20,6 +20,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/director" element={<Director />} />
+        <Route path="/Producer" element={<Producer />} />
       </Routes>
     </Router>
     </ResponseContext.Provider>
