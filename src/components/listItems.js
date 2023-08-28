@@ -52,7 +52,7 @@ export const mainListItems = (
       </ListItemIcon>
       <ListItemText primary="Log Out" />
     </ListItem>
-    <Typography variant="h5" align="center"><Link to="/Producer">Pro</Link></Typography>
+    <Typography variant="body1" align="center"><Link to="/Producer">Producer</Link></Typography>
   </div>
 );
 
